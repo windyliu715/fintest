@@ -1,4 +1,4 @@
-image: docker.oa.com:8080/gaia/ut-java-base:latest
+image: docker.oa.com:8080/public/ut-java-base:latest
 
 services:
     - mysql
