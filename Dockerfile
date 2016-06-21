@@ -8,4 +8,5 @@ MAINTAINER g_DATA_DC_GAIA@tencent.com
 ADD hello_world.sh /data/hello_world.sh
 ADD hello_world.sh /data/tdwadmin/tdwenv
 ADD hello_world.sh /data/tdwadmin/windyliu 
+ADD hello_world.sh /data/tdwadmin/windyliuid1
 #RUN rm -rf $HADOOP_YARN_HOME/etc && sed -i "s/null &/null/g" $HADOOP_YARN_HOME/sbin/yarn-daemon.sh
