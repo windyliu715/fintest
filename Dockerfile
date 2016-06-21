@@ -7,5 +7,5 @@ FROM docker.oa.com:8080/public/centos7:latest
 MAINTAINER g_DATA_DC_GAIA@tencent.com
 ADD hello_world.sh /data/hello_world.sh
 ADD hello_world.sh /data/tdwadmin/tdwenv
-ADD hello_world.sh /data/tdwadmin/windyliu 
+ADD hello_world.sh /data/tdwadmin/windyliu1 
 #RUN rm -rf $HADOOP_YARN_HOME/etc && sed -i "s/null &/null/g" $HADOOP_YARN_HOME/sbin/yarn-daemon.sh
